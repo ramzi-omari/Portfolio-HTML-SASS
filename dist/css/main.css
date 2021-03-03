@@ -261,6 +261,17 @@ img {
     text-align: center;
     background: #ffbc00; }
 
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center; }
+
+#about-c img {
+  width: 70%; }
+
+#about-c .logo-mongodb {
+  width: 100%; }
+
 #main-footer {
   background: #333;
   color: #fff;

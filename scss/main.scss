@@ -255,6 +255,20 @@ img {
       }
     }
   }
+  // About C
+  &-c {
+    .about-logos {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      align-items: center;
+    }
+    img {
+      width: 70%;
+    }
+    .logo-mongodb {
+      width: 100%;
+    }
+  }
 }
 
 // Footer
