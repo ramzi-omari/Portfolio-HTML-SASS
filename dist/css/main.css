@@ -382,6 +382,8 @@ img {
   #contact-a .text-fields .message-input {
     grid-area: message;
     height: 100px; }
+  #contact-a .text-fields .captcha {
+    align-items: center; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
 

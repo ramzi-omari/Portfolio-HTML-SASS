@@ -39,7 +39,7 @@
                     <input type="email" class="text-input email-input" placeholder="Email Address" name="email">
                     <input type="number" class="text-input phone-input" placeholder="Phone Number" name="phone">
                     <textarea class="text-input message-input" placeholder="Enter Message" name="message"></textarea>
-                    <div class="my-2">
+                    <div class="captcha my-2">
                         <div data-netlify-recaptcha="true"></div>
                     </div>
                 </div>
@@ -83,13 +83,15 @@
         <div class="footer-content container">
             <p>Copyright &copy; 2021. All Rights Reserved</p>
             <div class="social">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github"></i>
+                <i class="fab fa-facebook" onclick="tofb()"></i>
+                <i class="fab fa-linkedin" onclick="toli()"></i>
+                <i class="fab fa-github" onclick="togh()"></i>
             </div>
         </div>
     </footer>
 
+
+    <script src="js/redirectlink.js"></script>
 
 </body>
 </html>
