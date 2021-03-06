@@ -307,6 +307,13 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+  #about-a .bio h4 {
+    margin-top: 1rem;
+    font-size: 1.3rem; }
+  #about-a .bio p {
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -323,8 +330,30 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-a .award-1,
+#about-a .award-2,
+#about-a .award-3 {
+  display: none; }
+
+#about-b .skills {
+  display: grid;
+  grid-template-areas: "human general" "tools languages";
+  gap: 1rem 3rem; }
+  #about-b .skills .prog-lan-list {
+    grid-area: languages; }
+  #about-b .skills .prog-tools-list {
+    grid-area: tools; }
+    #about-b .skills .prog-tools-list .trilingue {
+      margin-top: 1.2rem;
+      font-size: 1.2rem; }
+  #about-b .skills .gen-list {
+    grid-area: general; }
+  #about-b .skills .hum-list {
+    grid-area: human; }
+  #about-b .skills h3 {
+    text-align: center; }
+
 #about-b .progress {
-  overflow: hidden;
   height: 15px;
   background: #ccc;
   border-radius: 5px;
@@ -346,25 +375,27 @@ img {
 #about-c .logo-mongodb {
   width: 100%; }
 
-#about-d .testimonials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  gap: 0.5rem; }
-  #about-d .testimonials ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center; }
-  #about-d .testimonials p {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0.5rem; }
-  #about-d .testimonials img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem; }
+#about-d {
+  display: none; }
+  #about-d .testimonials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 0.5rem; }
+    #about-d .testimonials ul {
+      list-style: none;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center; }
+    #about-d .testimonials p {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5rem; }
+    #about-d .testimonials img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 0.5rem; }
 
 #contact-a .text-fields {
   display: grid;

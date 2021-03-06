@@ -221,6 +221,15 @@ img {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+      h4 {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+      }
+      p {
+        margin-top: 1rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+      }
     }
     .award-1 {
       grid-area: aw1;
@@ -238,11 +247,43 @@ img {
       color: $main-color;
       margin: 1rem;
     }
+
+    .award-1,
+    .award-2,
+    .award-3 {
+      display: none;
+    }
   }
   // About B
   &-b {
+    .skills {
+      display: grid;
+      grid-template-areas:
+        "human general"
+        "tools languages";
+      gap: 1rem 3rem;
+      .prog-lan-list {
+        grid-area: languages;
+      }
+      .prog-tools-list {
+        grid-area: tools;
+        .trilingue {
+          margin-top: 1.2rem;
+          font-size: 1.2rem;
+        }
+      }
+      .gen-list {
+        grid-area: general;
+      }
+      .hum-list {
+        grid-area: human;
+      }
+      h3 {
+        text-align: center;
+      }
+    }
     .progress {
-      overflow: hidden;
+      // overflow: hidden;
       height: 15px;
       background: $medium-color;
       border-radius: 5px;
@@ -272,6 +313,7 @@ img {
   }
   // About D
   &-d {
+    display: none;
     .testimonials {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
