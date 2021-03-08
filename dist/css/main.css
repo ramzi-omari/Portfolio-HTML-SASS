@@ -479,6 +479,9 @@ img {
   .items,
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
+  #about-b .skills {
+    display: flex;
+    flex-direction: column; }
   #home-a .specials div {
     border-bottom: 1px #f4f4f4 solid;
     padding-bottom: 1rem; }

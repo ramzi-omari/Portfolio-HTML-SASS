@@ -28,4 +28,12 @@ function recipeReact() {
   window.open("https://ram-recipe-api-react.netlify.app/", "_blank");
 }
 
-//faut ajouter social medias clones & mern projects
+function facebookClone() {
+  window.open("https://facebook-clone-4ddeb.web.app/", "_blank");
+}
+function airbnbClone() {
+  window.open("https://ram-airbnb-clone-react-router.netlify.app/", "_blank");
+}
+function android3d() {
+  window.open("https://youtu.be/3Xe82hQxyLM", "_blank");
+}

@@ -59,6 +59,12 @@
     grid-template-columns: 1fr;
   }
 
+  // skills phone
+  #about-b .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
   //   Home
   #home {
     &-a {
