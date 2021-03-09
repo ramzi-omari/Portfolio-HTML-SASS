@@ -99,7 +99,8 @@ input[class^="btn-"]:hover {
 .item {
   position: relative;
   background: #ffbc00;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
   .item::after {
     content: "";
     position: absolute;
