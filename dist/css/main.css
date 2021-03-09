@@ -479,6 +479,8 @@ img {
   .items,
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
+  .items {
+    gap: 3rem 2rem; }
   #about-b .skills {
     display: flex;
     flex-direction: column; }

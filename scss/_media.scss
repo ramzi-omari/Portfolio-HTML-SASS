@@ -59,6 +59,9 @@
     grid-template-columns: 1fr;
   }
 
+  .items {
+    gap: 3rem 2rem;
+  }
   // skills phone
   #about-b .skills {
     display: flex;
